@@ -2,7 +2,7 @@
 title: "Lorem"
 autoThumbnailImage: yes
 thumbnailImagePosition: left
-thumbnailImage: images/leaf.jpg
+thumbnailImage: /images/leaf.jpg
 coverImage: images/leaf.jpg
 coverCaption: "Caption"
 metaAlignment: center
