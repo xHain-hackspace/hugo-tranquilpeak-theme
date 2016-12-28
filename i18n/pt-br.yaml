@@ -74,6 +74,9 @@
 - id: "global.support"
   translation: "Apoio"
 
+- id: "global.idea"
+  translation: "idéia"
+
 ## GLOBAL.POST_FOUND ##
 - id: "global.post_found.zero"
   translation: "não foram encontrados artigos"

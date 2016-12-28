@@ -74,6 +74,9 @@
 - id: "global.support"
   translation: "支持"
 
+- id: "global.idea"
+  translation: "理念"
+
 ## GLOBAL.POST_FOUND ##
 - id: "global.post_found.zero"
   translation: "没有找到文章"

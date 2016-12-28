@@ -74,6 +74,9 @@
 - id: "global.support"
   translation: "サポート"
 
+- id: "global.idea"
+  translation: "アイディア"
+
 ## GLOBAL.POST_FOUND ##
 - id: "global.post_found.zero"
   translation: "見つかりませんでした。"

@@ -74,6 +74,9 @@
 - id: "global.support"
   translation: "Support"
 
+- id: "global.idea"
+  translation: "Idea"
+
 ## GLOBAL.POST_FOUND ##
 - id: "global.posts_found.zero"
   translation: "no post found"

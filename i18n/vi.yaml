@@ -74,6 +74,9 @@
 - id: "global.support"
   translation: "ủng hộ"
 
+- id: "global.idea"
+  translation: "ý kiến"
+
 ## GLOBAL.POST_FOUND ##
 - id: "global.posts_found.zero"
   translation: "không tìm thấy kết quả"
