@@ -71,6 +71,9 @@
 - id: "global.calendar"
   translation: "Календарь"
 
+- id: "global.support"
+  translation: "поддержка"
+
 ## GLOBAL.POST_FOUND ##
 - id: "global.posts_found.zero"
   translation: "Статей не найдено"

@@ -71,6 +71,9 @@
 - id: "global.calendar"
   translation: "日曆"
 
+- id: "global.support"
+  translation: "支持"
+
 ## GLOBAL.POST_FOUND ##
 - id: "global.post_found.zero"
   translation: "没有找到文章"

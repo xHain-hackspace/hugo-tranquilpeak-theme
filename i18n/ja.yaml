@@ -71,6 +71,9 @@
 - id: "global.calendar"
   translation: "カレンダー"
 
+- id: "global.support"
+  translation: "サポート"
+
 ## GLOBAL.POST_FOUND ##
 - id: "global.post_found.zero"
   translation: "見つかりませんでした。"

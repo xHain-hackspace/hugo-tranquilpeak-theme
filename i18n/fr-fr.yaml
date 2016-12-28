@@ -65,6 +65,9 @@
 - id: "global.calendar"
   translation: "Calendrier"
 
+- id: "global.support"
+  translation: "Soutien"
+
 ## GLOBAL.POSTS_FOUND ##
 - id: "global.posts_found.zero"
   translation: "aucun article trouvé"

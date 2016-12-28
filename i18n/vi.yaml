@@ -71,6 +71,9 @@
 - id: "global.calendar"
   translation: "Lịch"
 
+- id: "global.support"
+  translation: "ủng hộ"
+
 ## GLOBAL.POST_FOUND ##
 - id: "global.posts_found.zero"
   translation: "không tìm thấy kết quả"
