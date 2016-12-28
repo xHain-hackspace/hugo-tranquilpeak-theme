@@ -68,6 +68,9 @@
 - id: "global.search_date"
   translation: "搜索日期 (YYYY/MM/DD)"
 
+- id: "global.calendar"
+  translation: "日曆"
+
 ## GLOBAL.POST_FOUND ##
 - id: "global.post_found.zero"
   translation: "没有找到文章"
