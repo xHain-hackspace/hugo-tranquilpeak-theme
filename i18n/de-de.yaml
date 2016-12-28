@@ -68,6 +68,9 @@
 - id: "global.search_date"
   translation: "Suche Datum (YYYY/MM/DD)"
 
+- id: "global.calendar"
+  translation: "Kalendar"
+
 ## GLOBAL.POST_FOUND ##
 - id: "global.posts_found.zero"
   translation: "kein Beitrag gefunden"
