@@ -53,7 +53,7 @@ If you want to report a bug or ask a question, [create an issue](https://github.
 ## General
 
 - **Authors**: [Louis Barranqueiro (LouisBarranqueiro)](https://github.com/LouisBarranqueiro) and [Thibaud Leprêtre (kakawait)](https://github.com/kakawait)
-- **Version**: 0.2.1-ALPHA (based on Hexo version 1.9.1)
+- **Version**: 0.2.3-SNAPSHOT (based on Hexo version 1.9.1)
 - **Compatibility**: Hugo v0.17
 
 ## Features
@@ -360,6 +360,8 @@ E.g to display a shortcut to open algolia search window :
 | favicon | Your favicon path |
 | imageGallery | Display an image gallery at the end of a post which have `photos` variables. (false: disabled, true: enabled) |
 | hierarchicalCategories | Define categories will create hierarchy between parents: `categories = ["foo", "bar"]` will consider "bar" a sub-category of "foo". If false it will flat categories. |
+| customCSS | Define files with css that override or extend the theme css; they are expected in `static` folder: `customCSS` = ["css/mystyles.css"]. |
+| customJS | Define files with js that override or extend the theme js; they are expected in `static` folder: `customJS` = ["js/myscripts.js"]. |
 
 E.g :  
 A category page look like this with `hierarchicalCategories = true` :  
@@ -520,11 +522,11 @@ The same with : `thumbnailImagePosition` set to `left`:
 
 Use: 
 
-- `<!-- more -->` to define post excerpt and keep the post excerpt in the post content
+- `<!--more-->` to define post excerpt and keep the post excerpt in the post content
 
 ### Display table of contents
 
-As post excerpt feature enable with `<!-- more -->` comment, you can display the table of contents of a post with  `<!-- toc -->`.  Place this comment where you want to display the table of content.
+As post excerpt feature enable with `<!--more-->` comment, you can display the table of contents of a post with  `<!-- toc -->`.  Place this comment where you want to display the table of content.
   
 Here is what looks like the table of contents generated:  
 ![thumbnail-image-position-left](https://s3-ap-northeast-1.amazonaws.com/tranquilpeak-hexo-theme/docs/1.4.0/toc-400.png) 
