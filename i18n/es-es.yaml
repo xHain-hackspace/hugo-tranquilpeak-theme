@@ -77,6 +77,10 @@
 - id: "global.idea"
   translation: "idea"
 
+- id: "global.imprint"
+  translation: "Imprimir"
+
+
 ## GLOBAL.POSTS_FOUND ##
 - id: "global.posts_found.zero"
   translation: "no se encontraron artículos"

@@ -77,6 +77,9 @@
 - id: "global.idea"
   translation: "idéia"
 
+- id: "global.imprint"
+  translation: "Imprimir"
+
 ## GLOBAL.POST_FOUND ##
 - id: "global.post_found.zero"
   translation: "não foram encontrados artigos"

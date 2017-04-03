@@ -77,6 +77,9 @@
 - id: "global.idea"
   translation: "идея"
 
+- id: "global.imprint"
+  translation: "Выходные данные"
+
 ## GLOBAL.POST_FOUND ##
 - id: "global.posts_found.zero"
   translation: "Статей не найдено"

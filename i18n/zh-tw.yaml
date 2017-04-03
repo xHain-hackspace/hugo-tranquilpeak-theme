@@ -77,6 +77,9 @@
 - id: "global.idea"
   translation: "理念"
 
+- id: "global.imprint"
+  translation: "版本說明"
+
 ## GLOBAL.POSTS_FOUND ##
 - id: "global.posts_found.zero"
   translation: "沒有找到文章"
