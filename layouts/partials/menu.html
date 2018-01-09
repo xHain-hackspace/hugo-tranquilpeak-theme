@@ -1,9 +1,15 @@
 {{ range .menu }}
   <li class="sidebar-button">
     {{ if and (in .URL "://") (not (in .URL (printf "%s" $.root.Site.BaseURL))) }}
+<<<<<<< HEAD
       <a class="sidebar-button-link {{ if eq .Identifier "search" }}open-algolia-search{{ end }}" href="{{ .URL | absLangURL }}" target="_blank">
     {{ else }}
       <a class="sidebar-button-link {{ if eq .Identifier "search" }}open-algolia-search{{ end }}" href="{{ .URL | absLangURL }}">
+=======
+      <a class="sidebar-button-link {{ if eq .Identifier "search" }}open-algolia-search{{ end }}" href="{{ .URL | safeURL }}" target="_blank" rel="noopener">
+    {{ else }}
+      <a class="sidebar-button-link {{ if eq .Identifier "search" }}open-algolia-search{{ end }}" href="{{ .URL | relLangURL }}">
+>>>>>>> 026df931e5bb33838960823d1f3a4ba72a47923a
     {{ end }}
       {{ .Pre }}
       {{ $name := (i18n (printf "global.%s" .Identifier)) }}
