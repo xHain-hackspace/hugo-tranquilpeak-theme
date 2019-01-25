@@ -49,3 +49,44 @@ figure.highlight,
 
 }
 */
+
+#events-upcoming span.date-dayname {
+    width: 125px;
+    display: inline-block;
+}
+#events-upcoming span.date-datestart {
+    width: 200px;
+    display: inline-block;
+}
+#events-upcoming span.date-time {
+    width: 150px;
+    display: inline-block;
+}
+
+
+@media #{$small-and-down} {
+
+    #events-upcoming span.date, #events-upcoming span.date-time, #events-upcoming span.summary {
+        display: block;
+    }
+    #events-upcoming li {
+        border-bottom: 1px solid map-get($colors, light);
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+    }
+
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
